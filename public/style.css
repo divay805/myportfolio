@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&family=PT+Serif&family=Roboto:wght@700&display=swap');
+
+
+.navbar{
+    /* margin-left: 5vw;
+    margin-right:10vw; */
+    margin: 0 15vh;
+    display: flex;
+    justify-content: space-between;
+    background-color:#FFFFFF ;
+    margin-bottom:10px;
+    /* display: none; */
+}
+.navlist{
+    display: flex;
+    list-style:none;
+    justify-content: space-evenly;
+    font-size: 10px;
+    padding-left: 0px;
+    width: 120px;
+   
+}
+
+.navlist li{
+    color: #3B3B3B;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    /* width: 120px; */
+
+    /* margin: 10px; */
+    margin:0 3px;
+}
+.midicon{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center ;
+    /* width: 10vw; */
+}
+.midicon img{
+height: 40px;
+}
+.midicon p {
+    font-size: 10px;
+    color: #3B3B3B;
+    font-family: 'Oswald', sans-serif;
+
+}
+.icontray{
+    height: 50px;
+    display:flex;
+    justify-content: space-evenly;
+width: 130px;
+    align-items: center;
+    
+   
+}
+.navlist li p {
+    display: flex;
+    justify-content: center;
+align-items: center;
+    }
+.body{
+    display:flex;
+    justify-content: space-evenly;
+ 
+
+}
+.l2{
+    height: 30vw;
+    width: 30vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: #E3E0F3;
+    border-radius: 50%; */
+}
+.l2 div{
+    height :100%;
+    width: 75%;
+    background: #EAEFE9;;
+    border-radius: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.l4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:#F3F3F3;
+    border-radius: 45%;
+    height: 150px;
+    width: 130px;
+    width: auto;
+    transition: height 0.1s;
+
+
+
+}
+div.icon:hover{
+    /* box-shadow: 5px ,10px black ; */
+    height: 155px;
+    
+}
+
+.page2body{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(206, 199, 199);
+    margin:0 180px;
+   flex-wrap: wrap;
+}
+.icon img{
+    height: 60px;
+    margin:10px,45px;
+}
+
+/* .icontray div{
+    justify-content: center;
+    align-items:center;
+} */
+.iconbox{
+    height: 150px;
+    width: 100px;
+    margin: 30px;
+}
+.pg3body{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 250px , 50px;
+    flex-wrap: wrap;
+    height: 70vh;
+}
+
+
+
+/*
+#E3E0F3 greayish
+#3B3B3B black font small 
+#474554 black font best to use heading 
+#ACA7CB grey fonts
+#E3E0F3 grey font best to use 
+
+
+*/
+/* css for the form  */
+.container{
+    width: 100%;
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: poppins,sans-serif;
+}
+form{
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+border-radius: 10%;
+}
+form input , form textarea{
+    border:0;
+    margin:10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: #f5f3f5;
+    font-size: 16px;
+    border-radius: 5px;
+}
+form button{
+    padding:15px;
+    background-color: #ff5361;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto;
+    border-radius: 20%;
+
+}
+form h3{
+    font-weight: 800;
+    margin-bottom: 20px;
+}
